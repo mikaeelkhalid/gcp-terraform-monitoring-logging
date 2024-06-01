@@ -9,8 +9,8 @@ module "monitoring" {
       name     = "uptime-check-name"
       hostname = "mikaeels.com"
       path     = "/health"
-      period   = 60
-      timeout  = 10
+      period   = "60"
+      timeout  = "10"
     }
   ]
 
