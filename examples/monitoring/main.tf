@@ -1,7 +1,7 @@
 module "monitoring" {
-  source     = "../../modules/monitoring"
+  source = "../../modules/monitoring"
 
-  project_id = "project-id"
+  project_id     = "project-id"
   project_region = "project-region"
 
   uptime_checks = [

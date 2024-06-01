@@ -7,7 +7,7 @@ resource "google_monitoring_notification_channel" "channels" {
   count = length(var.notification_channels)
 
   type = "email"
-  
+
   labels = {
     email_address = var.notification_channels[count.index].email
   }

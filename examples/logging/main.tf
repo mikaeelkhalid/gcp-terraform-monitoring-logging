@@ -1,7 +1,7 @@
 module "logging" {
-  source     = "../../modules/logging"
-  
-  project_id = "project-id"
+  source = "../../modules/logging"
+
+  project_id     = "project-id"
   project_region = "project-region"
 
   log_sinks = [
