@@ -1,6 +1,6 @@
 # GCP Terraform Monitoring and Logging
 
-This repository provides Terraform modules for setting up alerting, monitoring, logging and dashboarding on Google Cloud Platform (GCP) using Google Cloud Monitoring (formerly Stackdriver). These modules help you configure logging, monitoring, alerting policies, and dashboards efficiently.
+This repository provides Terraform modules for setting up alerting, monitoring, logging and dashboarding on Google Cloud Platform (GCP) using Google Cloud Monitoring (formerly Stackdriver). These modules help you getting started to configure logging, monitoring, alerting policies, and dashboards efficiently.
 
 ## Table of Contents
 - [Introduction](#introduction)
