@@ -66,7 +66,7 @@ Google Cloud Operations Suite (formerly Stackdriver) offers powerful tools for m
 
 ```hcl
 module "logging" {
-  source = "../../modules/logging"
+  source = "../modules/logging"
 
   project_id     = "project-id"
   project_region = "project-region"
@@ -141,7 +141,7 @@ module "monitoring" {
 
 ```hcl
 module "alerting_policy" {
-  source = "../../modules/alerting"
+  source = "../modules/alerting"
 
   project_id     = "project-id"
   project_region = "project-region"
@@ -178,7 +178,7 @@ module "alerting_policy" {
 
 ```hcl
 module "dashboard" {
-  source = "../../modules/dashboard"
+  source = "../modules/dashboard"
 
   project_id     = "project-id"
   project_region = "project-region"
@@ -218,7 +218,7 @@ EOF
 
 ```hcl
 module "logging" {
-  source = "../../modules/logging"
+  source = "../modules/logging"
 
   project_id     = "project-id"
   project_region = "project-region"
@@ -240,7 +240,7 @@ module "logging" {
 }
 
 module "monitoring" {
-  source = "../../modules/monitoring"
+  source = "../modules/monitoring"
 
   project_id     = "project-id"
   project_region = "project-region"
@@ -264,7 +264,7 @@ module "monitoring" {
 }
 
 module "alerting_policy" {
-  source = "../../modules/alerting"
+  source = "../modules/alerting"
 
   project_id     = "project-id"
   project_region = "project-region"
@@ -288,7 +288,7 @@ module "alerting_policy" {
 }
 
 module "dashboard" {
-  source = "../../modules/dashboard"
+  source = "../modules/dashboard"
 
   project_id     = "project-id"
   project_region = "project-region"
